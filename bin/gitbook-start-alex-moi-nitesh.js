@@ -7,6 +7,7 @@ var path = require("path");
 var child = require("child_process");
 var gitconfig = require('git-config');
 var prompt = require('prompt');
+ 
 
 //Variables para el package.json
 var author, email;
@@ -117,18 +118,20 @@ function crear_estructura(dir){
 
 
 function desplegar(nombre_dir, paquete){
-      /*crear_estructura(nombre_dir);*/
-      /*
-      if(ip_iaas){
+      
+      if(ip_iaas && path_iaas){
+      
         var paque = require(path.resolve(process.cwd(),"package.json"));
         paque.iaas.IP=ip_iaas;
-        console.log("Ip "+paque.iaas.IP)
-        console.log("Ip "+paque.main)
-      }
-      if(path_iaas){
-        var paque = require(path.resolve(process.cwd(),"package.json"));
         paque.iaas.PATH=path_iaas;
-      }*/
+        
+         
+        fs.writeFile(path.resolve(process.cwd(),'package.json'), JSON.stringify(paque, null, ' '), function (err) {
+          if(err)
+            console.error(err)
+        })
+      }
+
       
       child.exec('npm install -g gitbook-start-'+paquete+'-alex-moi', function(error, stdout, stderr){
         if(error)
