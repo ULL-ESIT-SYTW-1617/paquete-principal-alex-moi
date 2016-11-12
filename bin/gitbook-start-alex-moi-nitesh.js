@@ -209,24 +209,17 @@ else{
             if(err)
                 return err;
             carpeta = result.carpeta
-            console.log("Carpeta: "+ carpeta)
-          
             var pwd = process.cwd().split("/");
+      
       
             if( pwd[pwd.length-1] == carpeta ) 
             {  
-              console.log("Entraaa")
               if( Array.isArray( deploy ) == false)
               {
                 
                 switch (deploy) {
                   case 'iaas-ull-es':
-                      /*if(ip_iaas && path_iaas){ 
-                          desplegar(nombre_dir, 'iaas-ull-es')               
-                      }
-                      else
-                            console.log("Especifique la ip y el path del iaas")*/
-                        desplegar(nombre_dir, 'iaas-ull-es')  ;   
+                        desplegar(nombre_dir, 'iaas-ull-es');   
                       break;
                       
                   case 'heroku':
