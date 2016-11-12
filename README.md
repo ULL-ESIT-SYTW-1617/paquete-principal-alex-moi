@@ -85,7 +85,7 @@ Este argumento se corresponde con la opción del deploy en el iaas, heroku o git
 ## Versiones de paquetes a descargar para esta practica
 * Paquete principal: **v1.2.50**
 * Paquete IAAS: **v1.2.12**
-* Paquete Heroku-token: **v0.1.26**
+* Paquete Heroku-token: **v0.1.28**
 * Paquete github: **v0.1.8**
 
 ## Enlaces importantes
