@@ -229,6 +229,10 @@ else{
                   case 'heroku-token':
                       desplegar(nombre_dir, 'heroku-token')   
                       break;
+                  
+                  case 'heroku-token-oauth':
+                      desplegar(nombre_dir, 'heroku-token-oauth')   
+                      break;
                       
                   case 'github':
                       desplegar(nombre_dir, 'github') 
