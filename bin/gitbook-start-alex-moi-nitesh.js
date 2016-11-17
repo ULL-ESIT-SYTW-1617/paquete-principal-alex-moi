@@ -233,6 +233,10 @@ else{
                   case 'heroku-token-oauth':
                       desplegar(nombre_dir, 'heroku-token-oauth')   
                       break;
+                  
+                  case 'heroku-localstrategy':
+                      desplegar(nombre_dir, 'heroku-localstrategy')   
+                      break;
                       
                   case 'github':
                       desplegar(nombre_dir, 'github') 
