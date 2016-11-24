@@ -83,17 +83,21 @@ Este argumento se corresponde con la opción del deploy en el iaas, heroku o git
 
 
 ## Versiones de paquetes a descargar para esta practica
-* Paquete principal: **v1.2.50**
+* Paquete principal: **v1.2.59**
 * Paquete IAAS: **v1.2.12**
 * Paquete Heroku-token: **v0.1.28**
 * Paquete Heroku-token-oauth: **v0.0.12**
+* Paquete Heroku-localstrategy **v0.0.24**
 * Paquete github: **v0.1.8**
 
 ## Enlaces importantes
 *  [Página en NPM gitbook-start-alex-moi-nitesh](https://www.npmjs.com/package/gitbook-start-alex-moi-nitesh)
 *  [Página en NPM gitbook-start-iaas-ull-es-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-iaas-ull-es-alex-moi)
-* [Página en NPM gitbook-start-heroku-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-heroku-alex-moi)
-* [Página en NPM gitbook-start-github-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-github-alex-moi)
+*  [Página en NPM gitbook-start-heroku-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-heroku-alex-moi)
+*  [Página en NPM gitbook-start-heroku-token-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-heroku-token-alex-moi)
+*  [Página en NPM gitbook-start-heroku-token-oauth-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-heroku-token-oauth-alex-moi)
+*  [Página en NPM gitbook-start-heroku-localstrategy-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-heroku-localstrategy-alex-moi)
+*  [Página en NPM gitbook-start-github-alex-moi Plugin](https://www.npmjs.com/package/gitbook-start-github-alex-moi)
 *  [Repositorio GitHub](https://github.com/ULL-ESIT-SYTW-1617/crear-repositorio-en-github-alex-moi)
 *  [Descripción de la práctica](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicagithubapi.html)
 *  [Campus Virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1175)
