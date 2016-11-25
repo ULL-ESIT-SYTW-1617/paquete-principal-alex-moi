@@ -237,6 +237,10 @@ else{
                   case 'heroku-localstrategy':
                       desplegar(nombre_dir, 'heroku-localstrategy')   
                       break;
+                  
+                  case 'heroku-bbdd':
+                      desplegar(nombre_dir, 'heroku-bbdd')   
+                      break;
                       
                   case 'github':
                       desplegar(nombre_dir, 'github') 
