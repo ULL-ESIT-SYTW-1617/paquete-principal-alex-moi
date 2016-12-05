@@ -247,7 +247,7 @@ else{
                       break;
                   
                   case 'https':
-                      desplegar(nombre_dir, 'github') 
+                      desplegar(nombre_dir, 'https') 
                       break;
                       
                   default:
