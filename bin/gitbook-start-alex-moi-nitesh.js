@@ -245,6 +245,10 @@ else{
                   case 'github':
                       desplegar(nombre_dir, 'github') 
                       break;
+                  
+                  case 'https':
+                      desplegar(nombre_dir, 'github') 
+                      break;
                       
                   default:
                     console.log("La opcion " + deploy + " no es valida");
